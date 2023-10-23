@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style: none !important;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  background-color: rgba(64, 150, 255, 0.04);
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.modal_input {
+  margin-bottom: 5px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.modalButton {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.headerButton {
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+
+.headerButton Button {
+  font-size: 20px;
+}
+
+.headerButton Link {
+  display: flex;
+}
+
+#generalDiv {
+  display: flex;
+}
+
+.ant-modal-confirm-content {
+  max-height: 200px;
+  overflow: scroll;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.icons {
+  display: flex;
+  font-size: 16px;
+  justify-content: end;
+}
+
+.scroll {
+  overflow: scroll;
+}
+
+.deleteIcons {
+  color: red;
+  margin-left: 12px;
+}
+
+.tableStyle {
+  width: 98%;
+  min-height: 100%;
+  max-height: 100%;
+  background-color: #fffdfd;
+}
+
+.main {
+  padding-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 100%;
+  height: 89vh;
+}
+
+.mainDetail {
+  padding-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 100%;
+  height: 45vh;
+  background-color: #fffdfd;
+}
+
+.detailMain {
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.mainTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+  margin-right: 2%;
+}
+
+.mainTitleText {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.ant-form-item {
+  margin-bottom: 0;
+}
+
+.bgColor {
+  background-color: #4096ff;
+  color: white;
+}
+
+.tbBgc:hover {
+  background-color: rgba(64, 150, 255, 0.04) !important;
+}
+
+.btnLogout {
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px 0px 10px 0px;
+  width: 100%;
+}
+
+.border-table {
+  background-color: white;
+  border: solid 1px #fffdfd;
+  box-shadow: 0px 0px 1px 0px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(241, 241, 241, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.37);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(85, 85, 85, 0.63);
+}
+
+.LoginPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignIn {
+  width: 35vw;
+  height: 50vh;
+}
+
+.loginText {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  color: mediumblue;
+}
+
+.Moduls {
+  width: 20vw;
+  height: 85vh;
+  margin: 5px;
+  background-color: white;
+}
+
+.Main {
+  width: 80vw;
+  height: 70vh;
+  margin: 5px;
+  background-color: white;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+}
+
+.headerDirection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.ModulBar {
+  max-height: 85vh;
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ant-spin-container {
+  transition: none !important;
+}
+
+.ant-table-container::before {
+  transition: none !important;
+}
+
+.ant-table-container::after {
+  transition: none !important;
+}
+
+.ant-table-cell {
+  transition: none !important;
+}
+
+.columnScroll {
+  max-height: 130px;
+  overflow: scroll;
+}
+
+.images > img {
+  width: 100px;
+  height: 100px;
+}
+.payment_table_row_div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}

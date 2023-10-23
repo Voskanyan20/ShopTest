@@ -1,0 +1,94 @@
+.shop_header {
+  width: 95%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  box-shadow: 0px 1px 0 0;
+}
+.shop_main {
+  width: 95%;
+  margin: 5px auto;
+}
+.product_image {
+  width: 100%;
+  height: 240px;
+}
+.product_action_div {
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+.product_action_div > p {
+  font-family: monospace;
+  font-weight: 700;
+}
+.product_action_div > div > button {
+  margin-left: 5px;
+}
+
+.basket_main {
+  padding-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 100%;
+  height: 75vh;
+}
+
+.basket_table {
+  width: 98%;
+  max-height: 92%;
+  overflow-y: scroll;
+  background-color: #fffdfd;
+}
+.basket_buy_Button {
+  margin-top: 15px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.basket_product_image {
+  width: 70%;
+  height: 80px;
+}
+.total_price_div {
+  display: flex;
+  margin-right: 15px;
+}
+.total_price_div > h2 {
+  font-family: sans-serif;
+  padding-right: 6px;
+}
+.basketPaymentshow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user_payments_div {
+  min-width: 471px;
+  max-width: 471px;
+  overflow-x: scroll;
+  display: flex;
+}
+.user_payment_item {
+  width: 200px;
+}
+.user_payment_item > img {
+  width: 99%;
+}
+.user_payment_item > p {
+  font-family: system-ui;
+  font-weight: 600;
+}
+.user_payment_totalPrice {
+  display: flex;
+  justify-content: end;
+}
+.user_payment_notFound {
+  margin: 0 auto;
+  font-family: system-ui;
+}
