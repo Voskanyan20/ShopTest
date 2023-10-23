@@ -6,12 +6,16 @@ This repository contains a Node.js application that uses the Sequelize ORM to in
 
 Before running the project, you need to create a `.env` file in the root directory of the project. In this file, you should define the following environment variables:
 
-PORT=3000
-DB_NAME='test'
+PORT=8080
+DB_NAME='postgres'
 DB_USERNAME='postgres'
 PASSWORD='postgres'
 HOST='localhost'
 JWT_SECRET='SECRET'
+JWT_SECRET_USER='USER_SECRET'
+STRIPE_KEY= ....
+CLIENT_URL= http://localhost:3000
+END_POINT_SECRET= 'stripe endpoint secret key'
 
 Replace the values of `DB_NAME`, `DB_USERNAME`, `PASSWORD`, and `HOST` with your own database credentials.
 
